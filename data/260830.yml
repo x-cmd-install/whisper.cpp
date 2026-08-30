@@ -1,0 +1,77 @@
+about:
+  description: Port of OpenAI's Whisper model in C/C++
+  license: MIT
+  homepage: 
+  head: c4ac001
+  archived: false
+  latestVersion: v1.9.3
+  collectedAt: 2026-08-30T05:16:22Z
+timeline:
+  created: 2022-09-25
+  lastCommit: 2026-08-29
+  lastRelease: 2026-08-20
+popularity:
+  star: 53291
+  watcher: 414
+  fork: 6110
+  release: 40
+  contributor: 994
+  pullRequest: 429
+  issue: 1966
+language:
+  C++: 10948566
+  C: 5859018
+  Cuda: 1939984
+  Metal: 1038200
+  GLSL: 351916
+  CMake: 246840
+  WGSL: 224308
+  Shell: 217459
+  Go Template: 214286
+  Python: 178625
+  Objective-C: 151208
+  Ruby: 80492
+  Go: 65773
+  Java: 61409
+  Makefile: 10796
+  Dockerfile: 8321
+  Batchfile: 6322
+  PowerShell: 6293
+  Objective-C++: 2224
+  Linker Script: 1729
+  JavaScript: 1645
+  Assembly: 396
+totalLine: 21615810
+recent:
+  last30d:
+    since: 2026-07-31
+    release: 3
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last90d:
+    since: 2026-06-01
+    release: 7
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last180d:
+    since: 2026-03-03
+    release: 9
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last360d:
+    since: 2025-09-04
+    release: 13
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0

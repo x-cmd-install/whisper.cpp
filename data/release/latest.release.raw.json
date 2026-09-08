@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 53621479,
       "digest": "sha256:dcc6cdc6d6902d11893434ceda70c23a2a64450f65a1b570035c9908988dfedd",
-      "download_count": 1744,
+      "download_count": 1784,
       "created_at": "2026-08-20T11:33:20Z",
       "updated_at": "2026-08-20T11:33:22Z",
       "browser_download_url": "https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-b4938-xcframework.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 4572294,
       "digest": "sha256:94a33318650c57cc3d9a91439e0e3f0b94ba96bacd34203a06db395cf9204e40",
-      "download_count": 574,
+      "download_count": 580,
       "created_at": "2026-08-20T11:33:23Z",
       "updated_at": "2026-08-20T11:33:23Z",
       "browser_download_url": "https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-bin-ubuntu-arm64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 9503425,
       "digest": "sha256:f4cfc1f969a13805908fb72043ce7cc896eb42e0b8afbe841dc8e7298923b061",
-      "download_count": 12397,
+      "download_count": 12586,
       "created_at": "2026-08-20T11:33:23Z",
       "updated_at": "2026-08-20T11:33:24Z",
       "browser_download_url": "https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-bin-ubuntu-x64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 5338026,
       "digest": "sha256:b584fac6e15aa6714cd5c17f5efd0aa2d330c29f7f508e352333719b0e5b46a5",
-      "download_count": 811,
+      "download_count": 821,
       "created_at": "2026-08-20T11:33:22Z",
       "updated_at": "2026-08-20T11:33:22Z",
       "browser_download_url": "https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-bin-Win32.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 8361840,
       "digest": "sha256:c2a4b60edb11f7e11a9191ffb50929535527d4d91c9903dbe3e554583bbbc63d",
-      "download_count": 32798,
+      "download_count": 33514,
       "created_at": "2026-08-20T11:33:24Z",
       "updated_at": "2026-08-20T11:33:25Z",
       "browser_download_url": "https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-bin-x64.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 12369487,
       "digest": "sha256:28e84a6bf97afd1c6a1c4805839b07e66cdf3df81b7a15d27793e371833aa86c",
-      "download_count": 273,
+      "download_count": 276,
       "created_at": "2026-08-20T11:33:25Z",
       "updated_at": "2026-08-20T11:33:26Z",
       "browser_download_url": "https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-blas-bin-Win32.zip"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 21147582,
       "digest": "sha256:78568aa80b361382cb303438a7be3b05669651f2ca8258910394679e049d26ea",
-      "download_count": 7036,
+      "download_count": 7295,
       "created_at": "2026-08-20T11:33:26Z",
       "updated_at": "2026-08-20T11:33:27Z",
       "browser_download_url": "https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-blas-bin-x64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 269896802,
       "digest": "sha256:2510ae3fe25af5cd7fed55ff71a97a5b1bcc7ea27e88e98d1d53229761a0857d",
-      "download_count": 1445,
+      "download_count": 1469,
       "created_at": "2026-08-20T11:33:28Z",
       "updated_at": "2026-08-20T11:33:35Z",
       "browser_download_url": "https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-cublas-11.8.0-bin-x64.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 671045732,
       "digest": "sha256:c1b17166e1e31a91cc8e9c1f910d3785e3ce757bb2958bf9dce13fdb4880005f",
-      "download_count": 6311,
+      "download_count": 6451,
       "created_at": "2026-08-20T11:33:36Z",
       "updated_at": "2026-08-20T11:33:53Z",
       "browser_download_url": "https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-cublas-12.4.0-bin-x64.zip"

@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 53,587 · **Forks**: 6,135 · **Open issues**: 1,975 · **Contributors**: 1,030
+- **Stars**: 53,588 · **Forks**: 6,135 · **Open issues**: 1,975 · **Contributors**: 1,030
 
 ## Totals (cumulative)
 
@@ -102,4 +102,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:43:27Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T22:07:22Z._

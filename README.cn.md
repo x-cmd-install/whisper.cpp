@@ -12,7 +12,7 @@ Port of OpenAI's Whisper model in C/C++
 x install whisper.cpp
 ```
 
-## 代码规模
+## 代码洞察
 
 合计: **488,672** 行代码（覆盖前 5 种语言、共 **870** 个文件）。
 
@@ -47,7 +47,7 @@ x install whisper.cpp
 
 ## 流行度
 
-- **Star**: 53,587 · **Fork**: 6,135 · **开放 issue**: 1,975 · **贡献者**: 1,030
+- **Star**: 53,588 · **Fork**: 6,135 · **开放 issue**: 1,975 · **贡献者**: 1,030
 
 ## 累计统计
 
@@ -102,4 +102,4 @@ whisper.cpp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T21:43:28Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T22:07:23Z._

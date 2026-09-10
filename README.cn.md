@@ -1,70 +1,70 @@
 # whisper.cpp
 
-[中文版本](./README.cn.md)
+[English version](./README.md)
 
 Port of OpenAI's Whisper model in C/C++
 
-![whisper.cpp](https://repo.x-cmd.io/whisper.cpp.svg)
+![whisper.cpp](https://repo.x-cmd.io/whisper.cpp.svg?lang=zh)
 
-## Install
+## 安装
 
 ```sh
 x install whisper.cpp
 ```
 
-## Source
+## 源代码
 
-- **Upstream**: <https://github.com/ggerganov/whisper.cpp>
-- **License**: MIT
+- **上游仓库**: <https://github.com/ggerganov/whisper.cpp>
+- **许可证**: MIT
 
-## Release
+## 发布
 
-- **Latest**: `b5127` (2026-08-20)
-- **Last commit**: 2026-09-10
-- **Assets in release**: 9
+- **最新版本**: `b5127` (2026-08-20)
+- **最近提交**: 2026-09-10
+- **Release 含资产**: 9 个
 
-## Popularity
+## 流行度
 
-- **Stars**: 53,586 · **Forks**: 6,135 · **Open issues**: 1,975 · **Contributors**: 1,030
+- **Star**: 53,586 · **Fork**: 6,135 · **开放 issue**: 1,975 · **贡献者**: 1,030
 
-## Totals (cumulative)
+## 累计统计
 
-- **Releases**: 41 · **Merged PRs**: 1057 · **Open PRs**: 174 · **Closed issues**: 1807 · **Open issues**: 168 · **Commits**: 5130
+- **发布数**: 41 · **已合并 PR**: 1057 · **开放 PR**: 174 · **已关闭 issue**: 1807 · **开放 issue**: 168 · **提交数**: 5130
 
-## Recent activity
+## 最近活动
 
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 3 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 7 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 14 | 0 | 0 | 0 | 0 | 0 |
 
-## Code size
+## 代码规模
 
-Total: **488,672** lines of code across **870** files in the top 5 languages.
+合计: **488,672** 行代码（覆盖前 5 种语言、共 **870** 个文件）。
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
 | Cpp | 185,736 | 14,126 | 34,371 | 290 |
 | CHeader | 110,720 | 17,712 | 20,397 | 200 |
 | C | 67,801 | 5,777 | 13,709 | 115 |
 | CppHeader | 31,922 | 5,610 | 5,823 | 76 |
 | Cuda | 20,597 | 1,252 | 3,758 | 189 |
 
-## OpenSSF Scorecard
+## OpenSSF Scorecard 评分
 
-Overall score: **5.1 / 10**
+总评分: **5.1 / 10**
 
-Lowest-scoring checks:
+评分最低的几项:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Fuzzing** (0/10) — project is not fuzzed
 
-## Release assets
+## Release 资产
 
-| Asset | Size | Target |
-|-------|-----:|--------|
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
 | [whisper-b4938-xcframework.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-b4938-xcframework.zip) | 51.1 MiB | `other` |
 | [whisper-bin-ubuntu-arm64.tar.gz](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-ubuntu-arm64.tar.gz) | 4.4 MiB | `native/linux/arm64` |
 | [whisper-bin-ubuntu-x64.tar.gz](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-ubuntu-x64.tar.gz) | 9.1 MiB | `native/unknown` |
@@ -75,13 +75,13 @@ Lowest-scoring checks:
 | [whisper-cublas-11.8.0-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-cublas-11.8.0-bin-x64.zip) | 257.4 MiB | `other` |
 | [whisper-cublas-12.4.0-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-cublas-12.4.0-bin-x64.zip) | 640.0 MiB | `other` |
 
-## Improve this data
+## 改进这些数据
 
-Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `whisper.cpp` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+whisper.cpp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `whisper.cpp` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
 
-- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/whisper.cpp.yml> (or whichever path the index uses)
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/whisper.cpp.yml>（或索引实际使用的路径）
 
-The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T18:30:31Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T18:30:32Z._

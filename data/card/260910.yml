@@ -7,7 +7,7 @@ about:
   latestVersion: "b5127"
   latestRelease: "b4938"
   latestPrerelease: "b5127"
-  collectedAt: 2026-09-10T18:30:03Z
+  collectedAt: 2026-09-10T21:43:10Z
 timeline:
   created: 2022-09-25
   lastCommit: 2026-09-10
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-08-20
   lastPrerelease: 2026-09-10
 popularity:
-  star: 53586
+  star: 53587
   watcher: 408
   fork: 6135
   release: 41
   contributor: 1030
-  pullRequest: 1492
+  pullRequest: 1493
   issue: 1975
 language:
   C++: 11575036
@@ -98,13 +98,13 @@ recent:
 total:
   release: 41
   mergedPR: 1057
-  openPR: 174
+  openPR: 175
   closedIssue: 1807
   openIssue: 168
   commit: 5130
 ---
 path: /home/runner/.x-repo/github.com/ggerganov/whisper.cpp
-collectedAt: 2026-09-10T18:30:19Z
+collectedAt: 2026-09-10T21:43:21Z
 loc:
   Cpp:
     code: 185736
@@ -449,19 +449,19 @@ checks:
     details:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
-  - whisper-bench
-  - test-parakeet-full-jfk
-  - test-common-utf8
-  - whisper-vad-speech-segments
-  - whisper-server
   - bench
-  - test-vad-full
+  - whisper-server
+  - test-parakeet-full-jfk
   - whisper-quantize
-  - whisper-cli
-  - test-vad
   - parakeet-quantize
-  - test-parakeet-full-diffusion
-  - parakeet-cli
-  - test-parakeet
   - main
+  - test-common-utf8
+  - test-parakeet-full-diffusion
+  - whisper-cli
+  - whisper-bench
+  - whisper-vad-speech-segments
+  - test-parakeet
+  - test-vad
   - test-parakeet-full-gb1
+  - test-vad-full
+  - parakeet-cli

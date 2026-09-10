@@ -7,7 +7,7 @@ about:
   latestVersion: "b5127"
   latestRelease: "b4938"
   latestPrerelease: "b5127"
-  collectedAt: 2026-09-10T21:43:10Z
+  collectedAt: 2026-09-10T22:06:59Z
 timeline:
   created: 2022-09-25
   lastCommit: 2026-09-10
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-20
   lastPrerelease: 2026-09-10
 popularity:
-  star: 53587
+  star: 53588
   watcher: 408
   fork: 6135
   release: 41
@@ -104,7 +104,7 @@ total:
   commit: 5130
 ---
 path: /home/runner/.x-repo/github.com/ggerganov/whisper.cpp
-collectedAt: 2026-09-10T21:43:21Z
+collectedAt: 2026-09-10T22:07:12Z
 loc:
   Cpp:
     code: 185736
@@ -449,19 +449,19 @@ checks:
     details:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
-  - bench
-  - whisper-server
   - test-parakeet-full-jfk
-  - whisper-quantize
   - parakeet-quantize
-  - main
-  - test-common-utf8
-  - test-parakeet-full-diffusion
-  - whisper-cli
-  - whisper-bench
-  - whisper-vad-speech-segments
-  - test-parakeet
   - test-vad
-  - test-parakeet-full-gb1
-  - test-vad-full
   - parakeet-cli
+  - test-parakeet-full-diffusion
+  - whisper-vad-speech-segments
+  - test-parakeet-full-gb1
+  - whisper-server
+  - whisper-quantize
+  - test-vad-full
+  - whisper-cli
+  - main
+  - test-parakeet
+  - whisper-bench
+  - test-common-utf8
+  - bench

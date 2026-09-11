@@ -41,42 +41,27 @@ x install whisper.cpp
 
 ## 发布
 
-- **最新版本**: `b5127` (2026-08-20)
+- **最新版本**: `v1.9.4` (2026-09-11)
 - **最近提交**: 2026-09-10
-- **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 53,588 · **Fork**: 6,135 · **开放 issue**: 1,975 · **贡献者**: 1,030
+- **Star**: 53,598 · **Fork**: 6,138 · **开放 issue**: 1,975 · **贡献者**: 1,030
 
 ## 累计统计
 
-- **发布数**: 41 · **已合并 PR**: 1057 · **开放 PR**: 175 · **已关闭 issue**: 1807 · **开放 issue**: 168 · **提交数**: 5130
+- **发布数**: 43 · **已合并 PR**: 1057 · **开放 PR**: 176 · **已关闭 issue**: 1807 · **开放 issue**: 168 · **提交数**: 5130
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-12 | 4 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-14 | 10 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 14 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-20 | 24 | 0 | 0 | 0 | 0 | 0 |
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [whisper-b4938-xcframework.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-b4938-xcframework.zip) | 51.1 MiB | `other` |
-| [whisper-bin-ubuntu-arm64.tar.gz](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-ubuntu-arm64.tar.gz) | 4.4 MiB | `native/linux/arm64` |
-| [whisper-bin-ubuntu-x64.tar.gz](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-ubuntu-x64.tar.gz) | 9.1 MiB | `native/unknown` |
-| [whisper-bin-Win32.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-Win32.zip) | 5.1 MiB | `native/win/x64` |
-| [whisper-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-x64.zip) | 8.0 MiB | `other` |
-| [whisper-blas-bin-Win32.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-blas-bin-Win32.zip) | 11.8 MiB | `native/win/x64` |
-| [whisper-blas-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-blas-bin-x64.zip) | 20.2 MiB | `other` |
-| [whisper-cublas-11.8.0-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-cublas-11.8.0-bin-x64.zip) | 257.4 MiB | `other` |
-| [whisper-cublas-12.4.0-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-cublas-12.4.0-bin-x64.zip) | 640.0 MiB | `other` |
+| 30d | 2026-08-12 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-13 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-13 | 9 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-15 | 12 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-16 | 16 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-21 | 26 | 0 | 0 | 0 | 0 | 0 |
 
 ## 发行版状态
 
@@ -88,7 +73,7 @@ x install whisper.cpp
 | Debian 14 | `1.9.3` | ✅ latest |
 | Ubuntu 26.04 LTS | `1.8.3` | ⚠️ outdated |
 | Arch | `1.9.3` | ✅ latest |
-| Homebrew | `1.9.2` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.9.3` | ✅ latest |
 | Nix unstable | `1.9.2` | ⚠️ outdated |
 | Alpine edge | `1.9.3` | ✅ latest |
@@ -102,4 +87,4 @@ whisper.cpp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T22:07:23Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T06:23:04Z._

@@ -41,42 +41,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `b5127` (2026-08-20)
+- **Latest**: `v1.9.4` (2026-09-11)
 - **Last commit**: 2026-09-10
-- **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 53,588 · **Forks**: 6,135 · **Open issues**: 1,975 · **Contributors**: 1,030
+- **Stars**: 53,598 · **Forks**: 6,138 · **Open issues**: 1,975 · **Contributors**: 1,030
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 1057 · **Open PRs**: 175 · **Closed issues**: 1807 · **Open issues**: 168 · **Commits**: 5130
+- **Releases**: 43 · **Merged PRs**: 1057 · **Open PRs**: 176 · **Closed issues**: 1807 · **Open issues**: 168 · **Commits**: 5130
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-12 | 4 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-14 | 10 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 14 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-20 | 24 | 0 | 0 | 0 | 0 | 0 |
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [whisper-b4938-xcframework.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-b4938-xcframework.zip) | 51.1 MiB | `other` |
-| [whisper-bin-ubuntu-arm64.tar.gz](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-ubuntu-arm64.tar.gz) | 4.4 MiB | `native/linux/arm64` |
-| [whisper-bin-ubuntu-x64.tar.gz](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-ubuntu-x64.tar.gz) | 9.1 MiB | `native/unknown` |
-| [whisper-bin-Win32.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-Win32.zip) | 5.1 MiB | `native/win/x64` |
-| [whisper-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-bin-x64.zip) | 8.0 MiB | `other` |
-| [whisper-blas-bin-Win32.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-blas-bin-Win32.zip) | 11.8 MiB | `native/win/x64` |
-| [whisper-blas-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-blas-bin-x64.zip) | 20.2 MiB | `other` |
-| [whisper-cublas-11.8.0-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-cublas-11.8.0-bin-x64.zip) | 257.4 MiB | `other` |
-| [whisper-cublas-12.4.0-bin-x64.zip](https://github.com/ggerganov/whisper.cpp/releases/download/b4938/whisper-cublas-12.4.0-bin-x64.zip) | 640.0 MiB | `other` |
+| 30d | 2026-08-12 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-13 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-13 | 9 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-15 | 12 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-16 | 16 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-21 | 26 | 0 | 0 | 0 | 0 | 0 |
 
 ## Distribution status
 
@@ -88,7 +73,7 @@ Reported by **68** distros on [repology.org](https://repology.org/project/whispe
 | Debian 14 | `1.9.3` | ✅ latest |
 | Ubuntu 26.04 LTS | `1.8.3` | ⚠️ outdated |
 | Arch | `1.9.3` | ✅ latest |
-| Homebrew | `1.9.2` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.9.3` | ✅ latest |
 | Nix unstable | `1.9.2` | ⚠️ outdated |
 | Alpine edge | `1.9.3` | ✅ latest |
@@ -102,4 +87,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:07:22Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:23:03Z._

@@ -42,15 +42,15 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.9.4` (2026-09-11)
-- **Last commit**: 2026-09-10
+- **Last commit**: 2026-09-11
 
 ## Popularity
 
-- **Stars**: 53,598 · **Forks**: 6,138 · **Open issues**: 1,975 · **Contributors**: 1,030
+- **Stars**: 53,602 · **Forks**: 6,142 · **Open issues**: 1,976 · **Contributors**: 1,030
 
 ## Totals (cumulative)
 
-- **Releases**: 43 · **Merged PRs**: 1057 · **Open PRs**: 176 · **Closed issues**: 1807 · **Open issues**: 168 · **Commits**: 5130
+- **Releases**: 43 · **Merged PRs**: 1059 · **Open PRs**: 177 · **Closed issues**: 1807 · **Open issues**: 169 · **Commits**: 5132
 
 ## Recent activity
 
@@ -65,18 +65,18 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **68** distros on [repology.org](https://repology.org/project/whisper.cpp). **19** are ✅ on the latest upstream release, **37** are ⚠️ on an older version.
+Reported by **68** distros on [repology.org](https://repology.org/project/whisper.cpp). **1** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `1.9.3` | ✅ latest |
-| Debian 14 | `1.9.3` | ✅ latest |
+| Debian unstable | `1.9.3` | ⚠️ outdated |
+| Debian 14 | `1.9.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.8.3` | ⚠️ outdated |
-| Arch | `1.9.3` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `1.9.3` | ✅ latest |
+| Arch | `1.9.3` | ⚠️ outdated |
+| Homebrew | `1.9.2` | ⚠️ outdated |
+| Fedora rawhide | `1.9.3` | ⚠️ outdated |
 | Nix unstable | `1.9.2` | ⚠️ outdated |
-| Alpine edge | `1.9.3` | ✅ latest |
+| Alpine edge | `1.9.3` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -87,4 +87,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T06:23:03Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T18:25:29Z._

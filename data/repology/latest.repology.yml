@@ -1,3 +1,10 @@
+- repo: homebrew
+  srcname: whisper-cpp
+  visiblename: whisper-cpp
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Port of OpenAI's Whisper model in C/C++
 - repo: alpine_edge
   subrepo: testing
   srcname: whisper.cpp
@@ -339,10 +346,22 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_25_05
+- repo: freebsd
+  srcname: audio/whisper.cpp
+  binname: whisper.cpp
+  visiblename: audio/whisper.cpp
+  version: 1.8.4
+  origversion: 1.8.4_1
+  status: outdated
+  summary: Port of OpenAI's Whisper model in C/C++
+  maintainers:
+    - yuri@freebsd.org
+  categories:
+    - audio
+- repo: nix_stable_25_11
   srcname: whisper-cpp-vulkan
   visiblename: whisper-cpp
-  version: 1.7.5
+  version: 1.8.3
   origversion: null
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
@@ -352,18 +371,6 @@
     - antoine-nixos@lesviallon.fr
   licenses:
     - MIT
-- repo: freebsd
-  srcname: audio/whisper.cpp
-  binname: whisper.cpp
-  visiblename: audio/whisper.cpp
-  version: 1.8.4
-  origversion: null
-  status: outdated
-  summary: Port of OpenAI's Whisper model in C/C++
-  maintainers:
-    - yuri@freebsd.org
-  categories:
-    - audio
 - repo: gentoo_ovl_guru
   srcname: app-accessibility/whisper-cpp
   visiblename: app-accessibility/whisper-cpp
@@ -430,13 +437,6 @@
   version: 1.9.2
   origversion: null
   status: outdated
-  summary: Port of OpenAI's Whisper model in C/C++
-- repo: homebrew
-  srcname: whisper-cpp
-  visiblename: whisper-cpp
-  version: HEAD
-  origversion: null
-  status: rolling
   summary: Port of OpenAI's Whisper model in C/C++
 - repo: kali_rolling
   subrepo: main
@@ -633,10 +633,10 @@
     - antoine-nixos@lesviallon.fr
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: whisper-cpp
+- repo: nix_stable_25_05
+  srcname: whisper-cpp-vulkan
   visiblename: whisper-cpp
-  version: 1.8.3
+  version: 1.7.5
   origversion: null
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
@@ -647,7 +647,7 @@
   licenses:
     - MIT
 - repo: nix_stable_25_11
-  srcname: whisper-cpp-vulkan
+  srcname: whisper-cpp
   visiblename: whisper-cpp
   version: 1.8.3
   origversion: null

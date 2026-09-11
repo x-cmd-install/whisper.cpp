@@ -1,70 +1,63 @@
-- repo: homebrew
-  srcname: whisper-cpp
-  visiblename: whisper-cpp
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Port of OpenAI's Whisper model in C/C++
 - repo: alpine_edge
-  subrepo: testing
+  subrepo: community
   srcname: whisper.cpp
   binname: whisper-server
   visiblename: whisper-server
   version: 1.9.3
   origversion: 1.9.3-r0
-  status: newest
+  status: outdated
   summary: whisper.cpp server
   maintainers:
     - hugo@whynothugo.nl
   licenses:
     - MIT
 - repo: alpine_edge
-  subrepo: testing
+  subrepo: community
   srcname: whisper.cpp
   binname: whisper-server-openrc
   visiblename: whisper-server-openrc
   version: 1.9.3
   origversion: 1.9.3-r0
-  status: newest
+  status: outdated
   summary: whisper.cpp server (OpenRC init scripts)
   maintainers:
     - hugo@whynothugo.nl
   licenses:
     - MIT
 - repo: alpine_edge
-  subrepo: testing
+  subrepo: community
   srcname: whisper.cpp
   binname: whisper.cpp
   visiblename: whisper.cpp
   version: 1.9.3
   origversion: 1.9.3-r0
-  status: newest
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   maintainers:
     - hugo@whynothugo.nl
   licenses:
     - MIT
 - repo: alpine_edge
-  subrepo: testing
+  subrepo: community
   srcname: whisper.cpp
   binname: whisper.cpp-dev
   visiblename: whisper.cpp-dev
   version: 1.9.3
   origversion: 1.9.3-r0
-  status: newest
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++ (development files)
   maintainers:
     - hugo@whynothugo.nl
   licenses:
     - MIT
 - repo: alpine_edge
-  subrepo: testing
+  subrepo: community
   srcname: whisper.cpp
   binname: whisper.cpp-libs
   visiblename: whisper.cpp-libs
   version: 1.9.3
   origversion: 1.9.3-r0
-  status: newest
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   maintainers:
     - hugo@whynothugo.nl
@@ -151,7 +144,7 @@
   visiblename: whisper-cpp
   version: 1.9.3
   origversion: 1.9.3-1
-  status: newest
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   licenses:
     - MIT
@@ -190,8 +183,8 @@
     - libparakeet1
     - libparakeet-dev
   visiblename: whisper.cpp-dmo
-  version: 1.9.3
-  origversion: 1:1.9.3-dmo1
+  version: 1.9.4
+  origversion: 1:1.9.4-dmo1
   status: newest
   maintainers:
     - marillat@deb-multimedia.org
@@ -208,7 +201,7 @@
   visiblename: whisper.cpp
   version: 1.9.3
   origversion: 1.9.3+dfsg-1
-  status: newest
+  status: outdated
   maintainers:
     - debian-ai@lists.debian.org
     - ckk@debian.org
@@ -227,7 +220,7 @@
   visiblename: whisper.cpp
   version: 1.9.3
   origversion: 1.9.3+dfsg-1
-  status: newest
+  status: outdated
   maintainers:
     - debian-ai@lists.debian.org
     - ckk@debian.org
@@ -246,7 +239,7 @@
   visiblename: whisper.cpp
   version: 1.9.3
   origversion: 1.9.3+dfsg-1
-  status: newest
+  status: outdated
   maintainers:
     - debian-ai@lists.debian.org
     - ckk@debian.org
@@ -340,7 +333,7 @@
   visiblename: whisper-cpp
   version: 1.9.3
   origversion: 1.9.3-1.fc46
-  status: newest
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   licenses:
     - MIT
@@ -358,19 +351,6 @@
     - yuri@freebsd.org
   categories:
     - audio
-- repo: nix_stable_25_11
-  srcname: whisper-cpp-vulkan
-  visiblename: whisper-cpp
-  version: 1.8.3
-  origversion: null
-  status: outdated
-  summary: Port of OpenAI's Whisper model in C/C++
-  maintainers:
-    - 7rat13@gmail.com
-    - github@hughobrien.ie
-    - antoine-nixos@lesviallon.fr
-  licenses:
-    - MIT
 - repo: gentoo_ovl_guru
   srcname: app-accessibility/whisper-cpp
   visiblename: app-accessibility/whisper-cpp
@@ -438,6 +418,13 @@
   origversion: null
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
+- repo: homebrew
+  srcname: whisper-cpp
+  visiblename: whisper-cpp
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Port of OpenAI's Whisper model in C/C++
 - repo: kali_rolling
   subrepo: main
   srcname: whisper.cpp
@@ -449,7 +436,7 @@
   visiblename: whisper.cpp
   version: 1.9.3
   origversion: 1.9.3+dfsg-1
-  status: newest
+  status: outdated
   maintainers:
     - debian-ai@lists.debian.org
     - ckk@debian.org
@@ -529,7 +516,7 @@
   visiblename: whisper-cpp
   version: 1.9.3
   origversion: 1.9.3-1
-  status: newest
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   licenses:
     - MIT
@@ -540,7 +527,7 @@
   visiblename: whisper-cpp
   version: 1.9.3
   origversion: 1.9.3-1
-  status: newest
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   licenses:
     - MIT
@@ -551,7 +538,7 @@
   visiblename: whisper-cpp
   version: 1.9.3
   origversion: 1.9.3-1
-  status: newest
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   licenses:
     - MIT
@@ -659,6 +646,19 @@
     - antoine-nixos@lesviallon.fr
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: whisper-cpp-vulkan
+  visiblename: whisper-cpp
+  version: 1.8.3
+  origversion: null
+  status: outdated
+  summary: Port of OpenAI's Whisper model in C/C++
+  maintainers:
+    - 7rat13@gmail.com
+    - github@hughobrien.ie
+    - antoine-nixos@lesviallon.fr
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: whisper-cpp
   visiblename: whisper-cpp
@@ -731,7 +731,7 @@
   visiblename: whisper-cpp
   version: 1.9.3
   origversion: 1.9.3-3
-  status: newest
+  status: outdated
   summary: Speech recognition in C/C++ (whisper.cpp)
   maintainers:
     - bero@lindev.ch
@@ -746,7 +746,7 @@
   visiblename: whisper-cpp
   version: 1.9.3
   origversion: 1.9.3-1
-  status: newest
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   licenses:
     - MIT
@@ -761,7 +761,7 @@
   visiblename: whisper.cpp
   version: 1.9.3
   origversion: 1.9.3+dfsg-1
-  status: newest
+  status: outdated
   maintainers:
     - debian-ai@lists.debian.org
     - ckk@debian.org
@@ -793,7 +793,7 @@
   visiblename: whisper-cpp
   version: 1.9.3
   origversion: null
-  status: newest
+  status: outdated
   summary: Automatic speech recognition
   maintainers:
     - rene@exactco.de

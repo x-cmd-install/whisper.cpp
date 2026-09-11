@@ -2,26 +2,26 @@ about:
   description: "Port of OpenAI's Whisper model in C/C++"
   license: MIT
   homepage: 
-  head: 927cfce
+  head: 1da4dc8
   archived: false
   latestVersion: "v1.9.4"
   latestRelease: "v1.9.4"
   latestPrerelease: "b5130"
-  collectedAt: 2026-09-11T06:22:45Z
+  collectedAt: 2026-09-11T18:25:13Z
 timeline:
   created: 2022-09-25
-  lastCommit: 2026-09-10
+  lastCommit: 2026-09-11
   lastVersion: 2026-09-11
   lastRelease: 2026-09-11
   lastPrerelease: 2026-09-11
 popularity:
-  star: 53598
+  star: 53602
   watcher: 408
-  fork: 6138
+  fork: 6142
   release: 43
   contributor: 1030
-  pullRequest: 1494
-  issue: 1975
+  pullRequest: 1497
+  issue: 1976
 language:
   C++: 11575036
   C: 6147266
@@ -97,14 +97,14 @@ recent:
     commit: 0
 total:
   release: 43
-  mergedPR: 1057
-  openPR: 176
+  mergedPR: 1059
+  openPR: 177
   closedIssue: 1807
-  openIssue: 168
-  commit: 5130
+  openIssue: 169
+  commit: 5132
 ---
 path: /home/runner/.x-repo/github.com/ggerganov/whisper.cpp
-collectedAt: 2026-09-11T06:22:55Z
+collectedAt: 2026-09-11T18:25:24Z
 loc:
   Cpp:
     code: 185736

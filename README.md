@@ -46,26 +46,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 53,615 · **Forks**: 6,141 · **Open issues**: 1,976 · **Contributors**: 1,030
+- **Stars**: 53,638 · **Forks**: 6,145 · **Open issues**: 1,978 · **Contributors**: 1,030
 
 ## Totals (cumulative)
 
-- **Releases**: 43 · **Merged PRs**: 1059 · **Open PRs**: 177 · **Closed issues**: 1807 · **Open issues**: 169 · **Commits**: 5132
+- **Releases**: 43 · **Merged PRs**: 1059 · **Open PRs**: 179 · **Closed issues**: 1807 · **Open issues**: 171 · **Commits**: 5132
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 5 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-14 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-14 | 9 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-16 | 12 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-17 | 16 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-22 | 26 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-14 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-15 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-15 | 9 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-17 | 12 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-18 | 16 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-23 | 26 | 0 | 0 | 0 | 0 | 0 |
 
 ## Distribution status
 
-Reported by **68** distros on [repology.org](https://repology.org/project/whisper.cpp). **1** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
+Reported by **68** distros on [repology.org](https://repology.org/project/whisper.cpp). **2** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -73,7 +73,7 @@ Reported by **68** distros on [repology.org](https://repology.org/project/whispe
 | Debian 14 | `1.9.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.8.3` | ⚠️ outdated |
 | Arch | `1.9.3` | ⚠️ outdated |
-| Homebrew | `1.9.2` | ⚠️ outdated |
+| Homebrew | `1.9.4` | ✅ latest |
 | Fedora rawhide | `1.9.3` | ⚠️ outdated |
 | Nix unstable | `1.9.2` | ⚠️ outdated |
 | Alpine edge | `1.9.3` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T05:59:59Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T06:26:01Z._

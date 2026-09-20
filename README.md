@@ -4,7 +4,7 @@
 
 Port of OpenAI's Whisper model in C/C++
 
-![whisper.cpp](https://repo.x-cmd.io/whisper.cpp.svg)
+[![x-cmd/install — whisper.cpp Code Quality Monitoring Repo Card](https://repo.x-cmd.io/whisper.cpp.svg)](https://x-cmd.com/install/whisper.cpp)
 
 ## Install
 
@@ -14,11 +14,11 @@ x install whisper.cpp
 
 ## Code insight
 
-Total: **495,557** lines of code across **881** files in the top 5 languages.
+Total: **495,567** lines of code across **881** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 190,127 | 14,399 | 35,015 | 295 |
+| Cpp | 190,133 | 14,399 | 35,015 | 295 |
 | CHeader | 111,156 | 17,778 | 20,488 | 204 |
 | C | 68,808 | 5,766 | 13,900 | 115 |
 | CppHeader | 31,959 | 5,623 | 5,844 | 78 |
@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 53,741 · **Forks**: 6,172 · **Open issues**: 1,979 · **Contributors**: 1,047
+- **Stars**: 53,785 · **Forks**: 6,181 · **Open issues**: 1,980 · **Contributors**: 1,048
 
 ## Totals (cumulative)
 
-- **Releases**: 43 · **Merged PRs**: 1065 · **Open PRs**: 178 · **Closed issues**: 1810 · **Open issues**: 169 · **Commits**: 5210
+- **Releases**: 43 · **Merged PRs**: 1068 · **Open PRs**: 176 · **Closed issues**: 1811 · **Open issues**: 169 · **Commits**: 5213
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 5 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-20 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-22 | 11 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-23 | 16 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-28 | 26 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-21 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-22 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-24 | 11 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-25 | 16 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-30 | 26 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:30:29Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:29:31Z._

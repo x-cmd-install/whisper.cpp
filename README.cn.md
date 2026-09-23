@@ -4,7 +4,7 @@
 
 Port of OpenAI's Whisper model in C/C++
 
-[![x-cmd/install — whisper.cpp Code Quality Monitoring Repo Card](https://repo.x-cmd.io/whisper.cpp.svg?lang=zh)](https://x-cmd.com/install/whisper.cpp)
+[![x-cmd/install — whisper.cpp Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/whisper.cpp.svg?lang=zh)](https://x-cmd.com/install/whisper.cpp)
 
 ## 安装
 
@@ -46,22 +46,22 @@ x install whisper.cpp
 
 ## 流行度
 
-- **Star**: 53,851 · **Fork**: 6,187 · **开放 issue**: 1,981 · **贡献者**: 1,048
+- **Star**: 53,869 · **Fork**: 6,188 · **开放 issue**: 1,981 · **贡献者**: 1,048
 
 ## 累计统计
 
-- **发布数**: 43 · **已合并 PR**: 1070 · **开放 PR**: 174 · **已关闭 issue**: 1811 · **开放 issue**: 170 · **提交数**: 5215
+- **发布数**: 43 · **已合并 PR**: 1070 · **开放 PR**: 174 · **已关闭 issue**: 1812 · **开放 issue**: 169 · **提交数**: 5215
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-24 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-26 | 11 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-27 | 16 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-02 | 26 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-24 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-25 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-27 | 11 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-28 | 16 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-03 | 26 | 0 | 0 | 0 | 0 | 0 |
 
 ## 改进这些数据
 
@@ -72,4 +72,4 @@ whisper.cpp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:35:51Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:44:54Z._

@@ -14,11 +14,11 @@ x install whisper.cpp
 
 ## Code insight
 
-Total: **502,842** lines of code across **895** files in the top 5 languages.
+Total: **502,854** lines of code across **895** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 190,220 | 14,533 | 35,421 | 299 |
+| Cpp | 190,232 | 14,533 | 35,422 | 299 |
 | CHeader | 113,320 | 17,892 | 20,822 | 212 |
 | C | 72,049 | 5,757 | 14,563 | 116 |
 | CppHeader | 32,046 | 5,640 | 5,872 | 79 |
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.9.4` (2026-09-11)
-- **Last commit**: 2026-09-28
+- **Last commit**: 2026-10-02
 
 ## Popularity
 
-- **Stars**: 54,090 · **Forks**: 6,201 · **Open issues**: 1,988 · **Contributors**: 1,070
+- **Stars**: 54,102 · **Forks**: 6,205 · **Open issues**: 1,988 · **Contributors**: 1,070
 
 ## Totals (cumulative)
 
-- **Releases**: 43 · **Merged PRs**: 1074 · **Open PRs**: 178 · **Closed issues**: 1815 · **Open issues**: 173 · **Commits**: 5312
+- **Releases**: 43 · **Merged PRs**: 1075 · **Open PRs**: 177 · **Closed issues**: 1816 · **Open issues**: 172 · **Commits**: 5313
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-02 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-03 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-04 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-05 | 11 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-07 | 15 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-12 | 24 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-03 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-04 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-05 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-06 | 11 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-08 | 15 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-13 | 24 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261002.yml` · 2026-10-02T06:59:19Z._
+_Snapshot: `data/card/261003.yml` · 2026-10-03T06:38:58Z._

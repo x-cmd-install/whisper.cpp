@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.9.5` (2026-10-06)
-- **Last commit**: 2026-10-11
+- **Last commit**: 2026-10-12
 
 ## Popularity
 
-- **Stars**: 54,281 · **Forks**: 6,223 · **Open issues**: 1,991 · **Contributors**: 1,092
+- **Stars**: 54,303 · **Forks**: 6,235 · **Open issues**: 1,991 · **Contributors**: 1,093
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 1078 · **Open PRs**: 178 · **Closed issues**: 1817 · **Open issues**: 174 · **Commits**: 5455
+- **Releases**: 45 · **Merged PRs**: 1079 · **Open PRs**: 178 · **Closed issues**: 1817 · **Open issues**: 174 · **Commits**: 5456
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 4 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-12 | 7 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-13 | 8 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-14 | 13 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-16 | 15 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-21 | 26 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-12 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-13 | 7 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-14 | 8 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-15 | 13 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-17 | 15 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-22 | 26 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:56:24Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T07:29:23Z._

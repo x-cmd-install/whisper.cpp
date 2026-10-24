@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 54,578 · **Forks**: 6,235 · **Open issues**: 1,997 · **Contributors**: 1,118
+- **Stars**: 54,608 · **Forks**: 6,237 · **Open issues**: 1,997 · **Contributors**: 1,119
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 1084 · **Open PRs**: 181 · **Closed issues**: 1819 · **Open issues**: 178 · **Commits**: 5588
+- **Releases**: 45 · **Merged PRs**: 1084 · **Open PRs**: 185 · **Closed issues**: 1819 · **Open issues**: 178 · **Commits**: 5588
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-24 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-25 | 8 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-26 | 13 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-28 | 15 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-02 | 26 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-24 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-25 | 5 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-26 | 8 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-27 | 13 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-29 | 15 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-03 | 26 | 0 | 0 | 0 | 0 | 0 |
 
 ## Distribution status
 
@@ -73,7 +73,7 @@ Reported by **73** distros on [repology.org](https://repology.org/project/whispe
 | Debian 14 | `1.9.5` | ✅ latest |
 | Ubuntu 26.04 LTS | `1.8.3` | ⚠️ outdated |
 | Arch | `1.9.5` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.9.5` | ✅ latest |
 | Fedora rawhide | `1.9.3` | ⚠️ outdated |
 | Nix unstable | `1.9.5` | ✅ latest |
 | Alpine edge | `1.9.4` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T06:09:59Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:50:05Z._

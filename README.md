@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 54,830 · **Forks**: 6,264 · **Open issues**: 2,000 · **Contributors**: 1,146
+- **Stars**: 54,854 · **Forks**: 6,266 · **Open issues**: 2,000 · **Contributors**: 1,146
 
 ## Totals (cumulative)
 
@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-02 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-03 | 8 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-05 | 13 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-06 | 15 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-11 | 26 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-03 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-03 | 5 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-04 | 8 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-06 | 13 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-07 | 15 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-12 | 26 | 0 | 0 | 0 | 0 | 0 |
 
 ## Distribution status
 
-Reported by **73** distros on [repology.org](https://repology.org/project/whisper.cpp). **15** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
+Reported by **71** distros on [repology.org](https://repology.org/project/whisper.cpp). **15** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:25:42Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:45:43Z._

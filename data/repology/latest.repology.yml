@@ -159,21 +159,6 @@
     - MIT
   categories:
     - Sound
-- repo: fedora_42
-  subrepo: release
-  srcname: whisper-cpp
-  binnames:
-    - whisper-cpp
-    - whisper-cpp-devel
-  visiblename: whisper-cpp
-  version: 1.7.1
-  origversion: 1.7.1-2.fc42
-  status: outdated
-  summary: Port of OpenAI's Whisper model in C/C++
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: altsisyphus
   srcname: whisper.cpp
   binnames:
@@ -359,19 +344,21 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_25_05
+- repo: fedora_42
+  subrepo: release
   srcname: whisper-cpp
+  binnames:
+    - whisper-cpp
+    - whisper-cpp-devel
   visiblename: whisper-cpp
-  version: 1.7.5
-  origversion: null
+  version: 1.7.1
+  origversion: 1.7.1-2.fc42
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
-  maintainers:
-    - 7rat13@gmail.com
-    - github@hughobrien.ie
-    - antoine-nixos@lesviallon.fr
   licenses:
     - MIT
+  categories:
+    - Unspecified
 - repo: fedora_43
   subrepo: release
   srcname: whisper-cpp
@@ -499,9 +486,9 @@
     - libwhisper-dev
     - libwhisper1
   visiblename: whisper.cpp
-  version: 1.9.4
-  origversion: 1.9.4+dfsg-1
-  status: outdated
+  version: 1.9.5
+  origversion: 1.9.5+dfsg-1
+  status: newest
   maintainers:
     - debian-ai@lists.debian.org
     - ckk@debian.org
@@ -635,6 +622,19 @@
   maintainers:
     - 7rat13@gmail.com
     - github@hughobrien.ie
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: whisper-cpp
+  visiblename: whisper-cpp
+  version: 1.7.5
+  origversion: null
+  status: outdated
+  summary: Port of OpenAI's Whisper model in C/C++
+  maintainers:
+    - 7rat13@gmail.com
+    - github@hughobrien.ie
+    - antoine-nixos@lesviallon.fr
   licenses:
     - MIT
 - repo: nix_stable_25_05

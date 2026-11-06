@@ -14,15 +14,15 @@ x install whisper.cpp
 
 ## Code insight
 
-Total: **530,014** lines of code across **950** files in the top 5 languages.
+Total: **546,958** lines of code across **964** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 203,533 | 15,287 | 36,907 | 317 |
-| CHeader | 117,655 | 18,115 | 21,634 | 239 |
-| C | 74,788 | 5,732 | 15,092 | 118 |
-| CppHeader | 33,476 | 5,784 | 6,084 | 84 |
-| Cuda | 23,347 | 1,410 | 4,076 | 192 |
+| Cpp | 212,215 | 15,528 | 38,001 | 319 |
+| CHeader | 118,624 | 18,183 | 21,790 | 244 |
+| C | 81,248 | 5,980 | 16,107 | 123 |
+| CppHeader | 33,539 | 5,798 | 6,095 | 85 |
+| Cuda | 23,708 | 1,445 | 4,118 | 193 |
 
 ## OpenSSF Scorecard
 
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.9.5` (2026-10-06)
-- **Last commit**: 2026-11-05
+- **Last commit**: 2026-11-06
 
 ## Popularity
 
-- **Stars**: 54,940 · **Forks**: 6,274 · **Open issues**: 2,003 · **Contributors**: 1,147
+- **Stars**: 54,962 · **Forks**: 6,279 · **Open issues**: 2,003 · **Contributors**: 1,160
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 1093 · **Open PRs**: 186 · **Closed issues**: 1826 · **Open issues**: 177 · **Commits**: 5713
+- **Releases**: 45 · **Merged PRs**: 1096 · **Open PRs**: 182 · **Closed issues**: 1826 · **Open issues**: 177 · **Commits**: 5781
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-06 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-07 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-09 | 13 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-10 | 15 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-15 | 26 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-07 | 5 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-08 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-10 | 13 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-11 | 15 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-16 | 25 | 0 | 0 | 0 | 0 | 0 |
 
 ## Distribution status
 
@@ -73,7 +73,7 @@ Reported by **71** distros on [repology.org](https://repology.org/project/whispe
 | Debian 14 | `1.9.5` | ✅ latest |
 | Ubuntu 26.04 LTS | `1.8.3` | ⚠️ outdated |
 | Arch | `1.9.5` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.9.5` | ✅ latest |
 | Fedora rawhide | `1.9.3` | ⚠️ outdated |
 | Nix unstable | `1.9.5` | ✅ latest |
 | Alpine edge | `1.9.4` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T08:08:24Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T08:18:13Z._

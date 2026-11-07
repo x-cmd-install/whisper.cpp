@@ -1,13 +1,13 @@
-- repo: aur
-  srcname: whisper.cpp-git
-  binname: whisper.cpp-git
-  visiblename: whisper.cpp-git
-  version: v1.7.5.r13.gb1f5c11
-  origversion: v1.7.5.r13.gb1f5c11-1
-  status: rolling
+- repo: nix_stable_24_11
+  srcname: openai-whisper-cpp
+  visiblename: whisper-cpp
+  version: 1.7.1
+  origversion: null
+  status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   maintainers:
-    - hrehfeld@aur
+    - 7rat13@gmail.com
+    - github@hughobrien.ie
   licenses:
     - MIT
 - repo: alpine_3_24
@@ -23,6 +23,21 @@
     - hugo@whynothugo.nl
   licenses:
     - MIT
+- repo: fedora_41
+  subrepo: release
+  srcname: whisper-cpp
+  binnames:
+    - whisper-cpp
+    - whisper-cpp-devel
+  visiblename: whisper-cpp
+  version: 1.6.2
+  origversion: 1.6.2-2.fc41
+  status: outdated
+  summary: Port of OpenAI's Whisper model in C/C++
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: alpine_3_24
   subrepo: community
   srcname: whisper.cpp
@@ -140,6 +155,21 @@
     - hugo@whynothugo.nl
   licenses:
     - MIT
+- repo: fedora_42
+  subrepo: release
+  srcname: whisper-cpp
+  binnames:
+    - whisper-cpp
+    - whisper-cpp-devel
+  visiblename: whisper-cpp
+  version: 1.7.1
+  origversion: 1.7.1-2.fc42
+  status: outdated
+  summary: Port of OpenAI's Whisper model in C/C++
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: alt_p11
   srcname: whisper.cpp
   binnames:
@@ -223,6 +253,18 @@
   origversion: 1.9.5-1
   status: newest
   summary: Port of OpenAI's Whisper model in C/C++
+  licenses:
+    - MIT
+- repo: aur
+  srcname: whisper.cpp-git
+  binname: whisper.cpp-git
+  visiblename: whisper.cpp-git
+  version: v1.7.5.r13.gb1f5c11
+  origversion: v1.7.5.r13.gb1f5c11-1
+  status: rolling
+  summary: Port of OpenAI's Whisper model in C/C++
+  maintainers:
+    - hrehfeld@aur
   licenses:
     - MIT
 - repo: chocolatey
@@ -329,36 +371,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: release
-  srcname: whisper-cpp
-  binnames:
-    - whisper-cpp
-    - whisper-cpp-devel
-  visiblename: whisper-cpp
-  version: 1.6.2
-  origversion: 1.6.2-2.fc41
-  status: outdated
-  summary: Port of OpenAI's Whisper model in C/C++
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: whisper-cpp
-  binnames:
-    - whisper-cpp
-    - whisper-cpp-devel
-  visiblename: whisper-cpp
-  version: 1.7.1
-  origversion: 1.7.1-2.fc42
-  status: outdated
-  summary: Port of OpenAI's Whisper model in C/C++
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: fedora_43
   subrepo: release
   srcname: whisper-cpp
@@ -409,7 +421,7 @@
   binname: whisper.cpp
   visiblename: audio/whisper.cpp
   version: 1.8.4
-  origversion: 1.8.4_2
+  origversion: 1.8.4_3
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
   maintainers:
@@ -548,6 +560,28 @@
     - MIT
   categories:
     - app-accessibility
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: whisper-cpp
+  binname: whisper-cpp
+  visiblename: whisper-cpp
+  version: 1.9.4
+  origversion: 1.9.4-1
+  status: outdated
+  summary: Port of OpenAI's Whisper model in C/C++
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: whisper-cpp
+  binname: whisper-cpp
+  visiblename: whisper-cpp
+  version: 1.9.5
+  origversion: 1.9.5-1
+  status: newest
+  summary: Port of OpenAI's Whisper model in C/C++
+  licenses:
+    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: whisper-cpp
@@ -563,8 +597,8 @@
   srcname: mingw-w64-whisper.cpp
   binname: mingw-w64-clang-x86_64-whisper.cpp
   visiblename: mingw-w64-clang-x86_64-whisper.cpp
-  version: 1.9.5.r256.ge4acdfdf2
-  origversion: 1~1.9.5.r256.ge4acdfdf2-1
+  version: 1.9.5.r258.g4da27c41c
+  origversion: 1~1.9.5.r258.g4da27c41c-1
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++ (mingw-w64)
   licenses:
@@ -573,8 +607,8 @@
   srcname: mingw-w64-whisper.cpp
   binname: mingw-w64-clang-aarch64-whisper.cpp
   visiblename: mingw-w64-clang-aarch64-whisper.cpp
-  version: 1.9.5.r256.ge4acdfdf2
-  origversion: 1~1.9.5.r256.ge4acdfdf2-1
+  version: 1.9.5.r258.g4da27c41c
+  origversion: 1~1.9.5.r258.g4da27c41c-1
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++ (mingw-w64)
   licenses:
@@ -584,8 +618,8 @@
   srcname: mingw-w64-whisper.cpp
   binname: mingw-w64-x86_64-whisper.cpp
   visiblename: mingw-w64-x86_64-whisper.cpp
-  version: 1.9.5.r256.ge4acdfdf2
-  origversion: 1~1.9.5.r256.ge4acdfdf2-1
+  version: 1.9.5.r258.g4da27c41c
+  origversion: 1~1.9.5.r258.g4da27c41c-1
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++ (mingw-w64)
   licenses:
@@ -594,8 +628,8 @@
   srcname: mingw-w64-whisper.cpp
   binname: mingw-w64-ucrt-x86_64-whisper.cpp
   visiblename: mingw-w64-ucrt-x86_64-whisper.cpp
-  version: 1.9.5.r256.ge4acdfdf2
-  origversion: 1~1.9.5.r256.ge4acdfdf2-1
+  version: 1.9.5.r258.g4da27c41c
+  origversion: 1~1.9.5.r258.g4da27c41c-1
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++ (mingw-w64)
   licenses:
@@ -604,18 +638,6 @@
   srcname: openai-whisper-cpp
   visiblename: whisper-cpp
   version: 1.5.4
-  origversion: null
-  status: outdated
-  summary: Port of OpenAI's Whisper model in C/C++
-  maintainers:
-    - 7rat13@gmail.com
-    - github@hughobrien.ie
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: openai-whisper-cpp
-  visiblename: whisper-cpp
-  version: 1.7.1
   origversion: null
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
@@ -865,6 +887,25 @@
   visiblename: whisper.cpp
   version: 1.9.2
   origversion: 1.9.2+dfsg-1
+  status: outdated
+  maintainers:
+    - debian-ai@lists.debian.org
+    - ckk@debian.org
+    - mbaudier@argeo.org
+    - pere@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: whisper.cpp
+  binnames:
+    - whisper.cpp
+    - whisper.cpp-tools
+    - libwhisper-dev
+    - libwhisper1
+  visiblename: whisper.cpp
+  version: 1.9.2
+  origversion: 1.9.2+dfsg-1build1
   status: outdated
   maintainers:
     - debian-ai@lists.debian.org

@@ -46,26 +46,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 55,009 · **Forks**: 6,284 · **Open issues**: 2,004 · **Contributors**: 1,160
+- **Stars**: 55,031 · **Forks**: 6,287 · **Open issues**: 2,004 · **Contributors**: 1,160
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 1098 · **Open PRs**: 182 · **Closed issues**: 1826 · **Open issues**: 178 · **Commits**: 5783
+- **Releases**: 45 · **Merged PRs**: 1098 · **Open PRs**: 185 · **Closed issues**: 1826 · **Open issues**: 178 · **Commits**: 5783
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-09 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-10 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-12 | 13 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-13 | 15 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-18 | 25 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-10 | 5 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-11 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-13 | 13 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-14 | 15 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-19 | 25 | 0 | 0 | 0 | 0 | 0 |
 
 ## Distribution status
 
-Reported by **74** distros on [repology.org](https://repology.org/project/whisper.cpp). **22** are ✅ on the latest upstream release, **42** are ⚠️ on an older version.
+Reported by **75** distros on [repology.org](https://repology.org/project/whisper.cpp). **24** are ✅ on the latest upstream release, **41** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T07:26:41Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:55:06Z._

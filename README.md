@@ -14,7 +14,7 @@ x install whisper.cpp
 
 ## Code insight
 
-Total: **546,973** lines of code across **965** files in the top 5 languages.
+Total: **546,974** lines of code across **965** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.9.5` (2026-10-06)
-- **Last commit**: 2026-11-10
+- **Last commit**: 2026-11-13
 
 ## Popularity
 
-- **Stars**: 55,123 · **Forks**: 6,297 · **Open issues**: 2,004 · **Contributors**: 1,163
+- **Stars**: 55,149 · **Forks**: 6,303 · **Open issues**: 2,005 · **Contributors**: 1,164
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 1102 · **Open PRs**: 188 · **Closed issues**: 1828 · **Open issues**: 176 · **Commits**: 5787
+- **Releases**: 45 · **Merged PRs**: 1103 · **Open PRs**: 187 · **Closed issues**: 1829 · **Open issues**: 176 · **Commits**: 5788
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-13 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-14 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-16 | 13 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-17 | 15 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-22 | 24 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-14 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-14 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-15 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-17 | 13 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-18 | 15 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-23 | 24 | 0 | 0 | 0 | 0 | 0 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T09:10:10Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T08:26:44Z._

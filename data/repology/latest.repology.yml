@@ -1,38 +1,11 @@
-- repo: gnuguix
-  srcname: whisper-cpp
-  binname: whisper-cpp
-  visiblename: whisper-cpp
-  version: 1.9.5
+- repo: slackbuilds
+  srcname: development/whisper.cpp
+  visiblename: development/whisper.cpp
+  version: 1.7.1
   origversion: null
-  status: newest
-  summary: OpenAI's Whisper model in C/C++
-- repo: homebrew
-  srcname: whisper.cpp
-  visiblename: whisper.cpp
-  version: 1.9.5
-  origversion: null
-  status: newest
-  summary: Port of OpenAI's Whisper model in C/C++
-- repo: homebrew
-  srcname: whisper.cpp
-  visiblename: whisper.cpp
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Port of OpenAI's Whisper model in C/C++
-- repo: gentoo_ovl_guru
-  srcname: app-accessibility/whisper-cpp
-  visiblename: app-accessibility/whisper-cpp
-  version: "9999"
-  origversion: null
-  status: rolling
-  summary: Port of OpenAI's Whisper model in C/C++
-  maintainers:
-    - negril.nx+gentoo@gmail.com
-  licenses:
-    - MIT
+  status: outdated
   categories:
-    - app-accessibility
+    - development
 - repo: alpine_3_24
   subrepo: community
   srcname: whisper.cpp
@@ -72,6 +45,19 @@
     - hugo@whynothugo.nl
   licenses:
     - MIT
+- repo: t2
+  srcname: whisper-cpp
+  visiblename: whisper-cpp
+  version: 1.9.5
+  origversion: null
+  status: newest
+  summary: Automatic speech recognition
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/development
 - repo: alpine_3_24
   subrepo: community
   srcname: whisper.cpp
@@ -477,6 +463,41 @@
     - MIT
   categories:
     - app-accessibility
+- repo: gentoo_ovl_guru
+  srcname: app-accessibility/whisper-cpp
+  visiblename: app-accessibility/whisper-cpp
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: Port of OpenAI's Whisper model in C/C++
+  maintainers:
+    - negril.nx+gentoo@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - app-accessibility
+- repo: gnuguix
+  srcname: whisper-cpp
+  binname: whisper-cpp
+  visiblename: whisper-cpp
+  version: 1.9.5
+  origversion: null
+  status: newest
+  summary: OpenAI's Whisper model in C/C++
+- repo: homebrew
+  srcname: whisper.cpp
+  visiblename: whisper.cpp
+  version: 1.9.5
+  origversion: null
+  status: newest
+  summary: Port of OpenAI's Whisper model in C/C++
+- repo: homebrew
+  srcname: whisper.cpp
+  visiblename: whisper.cpp
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Port of OpenAI's Whisper model in C/C++
 - repo: kali_rolling
   subrepo: main
   srcname: whisper.cpp
@@ -837,27 +858,6 @@
   status: newest
   licenses:
     - MIT
-- repo: slackbuilds
-  srcname: development/whisper.cpp
-  visiblename: development/whisper.cpp
-  version: 1.7.1
-  origversion: null
-  status: outdated
-  categories:
-    - development
-- repo: t2
-  srcname: whisper-cpp
-  visiblename: whisper-cpp
-  version: 1.9.5
-  origversion: null
-  status: newest
-  summary: Automatic speech recognition
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/development
 - repo: ubuntu_26_04
   subrepo: resolute/universe
   srcname: whisper.cpp

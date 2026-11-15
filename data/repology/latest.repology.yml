@@ -1,11 +1,29 @@
-- repo: slackbuilds
-  srcname: development/whisper.cpp
-  visiblename: development/whisper.cpp
-  version: 1.7.1
+- repo: nix_stable_25_05
+  srcname: whisper-cpp
+  visiblename: whisper-cpp
+  version: 1.7.5
   origversion: null
   status: outdated
+  summary: Port of OpenAI's Whisper model in C/C++
+  maintainers:
+    - 7rat13@gmail.com
+    - github@hughobrien.ie
+    - antoine-nixos@lesviallon.fr
+  licenses:
+    - MIT
+- repo: yacp
+  srcname: whisper.cpp
+  binnames:
+    - whisper.cpp
+    - libwhisper1
+    - libwhisper-devel
+  visiblename: whisper.cpp
+  version: 1.9.5
+  origversion: null
+  status: newest
+  summary: Port of OpenAI's Whisper model in C/C++
   categories:
-    - development
+    - Libs
 - repo: alpine_3_24
   subrepo: community
   srcname: whisper.cpp
@@ -45,19 +63,6 @@
     - hugo@whynothugo.nl
   licenses:
     - MIT
-- repo: t2
-  srcname: whisper-cpp
-  visiblename: whisper-cpp
-  version: 1.9.5
-  origversion: null
-  status: newest
-  summary: Automatic speech recognition
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/development
 - repo: alpine_3_24
   subrepo: community
   srcname: whisper.cpp
@@ -180,6 +185,21 @@
     - MIT
   categories:
     - Sound
+- repo: fedora_42
+  subrepo: release
+  srcname: whisper-cpp
+  binnames:
+    - whisper-cpp
+    - whisper-cpp-devel
+  visiblename: whisper-cpp
+  version: 1.7.1
+  origversion: 1.7.1-2.fc42
+  status: outdated
+  summary: Port of OpenAI's Whisper model in C/C++
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: altsisyphus
   srcname: whisper.cpp
   binnames:
@@ -365,21 +385,18 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: whisper-cpp
-  binnames:
-    - whisper-cpp
-    - whisper-cpp-devel
+- repo: nix_stable_24_11
+  srcname: openai-whisper-cpp
   visiblename: whisper-cpp
   version: 1.7.1
-  origversion: 1.7.1-2.fc42
+  origversion: null
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
+  maintainers:
+    - 7rat13@gmail.com
+    - github@hughobrien.ie
   licenses:
     - MIT
-  categories:
-    - Unspecified
 - repo: fedora_43
   subrepo: release
   srcname: whisper-cpp
@@ -606,8 +623,8 @@
   srcname: mingw-w64-whisper.cpp
   binname: mingw-w64-clang-x86_64-whisper.cpp
   visiblename: mingw-w64-clang-x86_64-whisper.cpp
-  version: 1.9.5.r258.g4da27c41c
-  origversion: 1~1.9.5.r258.g4da27c41c-1
+  version: 1.9.5.r334.g5922450fb
+  origversion: 1~1.9.5.r334.g5922450fb-1
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++ (mingw-w64)
   licenses:
@@ -616,8 +633,8 @@
   srcname: mingw-w64-whisper.cpp
   binname: mingw-w64-clang-aarch64-whisper.cpp
   visiblename: mingw-w64-clang-aarch64-whisper.cpp
-  version: 1.9.5.r258.g4da27c41c
-  origversion: 1~1.9.5.r258.g4da27c41c-1
+  version: 1.9.5.r334.g5922450fb
+  origversion: 1~1.9.5.r334.g5922450fb-1
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++ (mingw-w64)
   licenses:
@@ -627,8 +644,8 @@
   srcname: mingw-w64-whisper.cpp
   binname: mingw-w64-x86_64-whisper.cpp
   visiblename: mingw-w64-x86_64-whisper.cpp
-  version: 1.9.5.r258.g4da27c41c
-  origversion: 1~1.9.5.r258.g4da27c41c-1
+  version: 1.9.5.r334.g5922450fb
+  origversion: 1~1.9.5.r334.g5922450fb-1
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++ (mingw-w64)
   licenses:
@@ -637,8 +654,8 @@
   srcname: mingw-w64-whisper.cpp
   binname: mingw-w64-ucrt-x86_64-whisper.cpp
   visiblename: mingw-w64-ucrt-x86_64-whisper.cpp
-  version: 1.9.5.r258.g4da27c41c
-  origversion: 1~1.9.5.r258.g4da27c41c-1
+  version: 1.9.5.r334.g5922450fb
+  origversion: 1~1.9.5.r334.g5922450fb-1
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++ (mingw-w64)
   licenses:
@@ -653,31 +670,6 @@
   maintainers:
     - 7rat13@gmail.com
     - github@hughobrien.ie
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: openai-whisper-cpp
-  visiblename: whisper-cpp
-  version: 1.7.1
-  origversion: null
-  status: outdated
-  summary: Port of OpenAI's Whisper model in C/C++
-  maintainers:
-    - 7rat13@gmail.com
-    - github@hughobrien.ie
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: whisper-cpp
-  visiblename: whisper-cpp
-  version: 1.7.5
-  origversion: null
-  status: outdated
-  summary: Port of OpenAI's Whisper model in C/C++
-  maintainers:
-    - 7rat13@gmail.com
-    - github@hughobrien.ie
-    - antoine-nixos@lesviallon.fr
   licenses:
     - MIT
 - repo: nix_stable_25_05
@@ -810,7 +802,7 @@
     - whisper-cpp-debuginfo
   visiblename: whisper-cpp
   version: 1.9.5
-  origversion: 1.9.5-2
+  origversion: 1.9.5-3
   status: newest
   summary: Speech recognition in C/C++ (whisper.cpp)
   maintainers:
@@ -858,6 +850,27 @@
   status: newest
   licenses:
     - MIT
+- repo: slackbuilds
+  srcname: development/whisper.cpp
+  visiblename: development/whisper.cpp
+  version: 1.7.1
+  origversion: null
+  status: outdated
+  categories:
+    - development
+- repo: t2
+  srcname: whisper-cpp
+  visiblename: whisper-cpp
+  version: 1.9.5
+  origversion: null
+  status: newest
+  summary: Automatic speech recognition
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/development
 - repo: ubuntu_26_04
   subrepo: resolute/universe
   srcname: whisper.cpp
@@ -975,16 +988,3 @@
   origversion: null
   status: outdated
   summary: Port of OpenAI's Whisper model in C/C++
-- repo: yacp
-  srcname: whisper.cpp
-  binnames:
-    - whisper.cpp
-    - libwhisper1
-    - libwhisper-devel
-  visiblename: whisper.cpp
-  version: 1.9.5
-  origversion: null
-  status: newest
-  summary: Port of OpenAI's Whisper model in C/C++
-  categories:
-    - Libs

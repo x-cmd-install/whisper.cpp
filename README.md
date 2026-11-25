@@ -14,7 +14,7 @@ x install whisper.cpp
 
 ## Code insight
 
-Total: **554,220** lines of code across **982** files in the top 5 languages.
+Total: **554,225** lines of code across **982** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,41 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.9.6` (2026-11-23)
-- **Last commit**: 2026-11-24
+- **Last commit**: 2026-11-25
 
 ## Popularity
 
-- **Stars**: 55,472 · **Forks**: 6,346 · **Open issues**: 2,012 · **Contributors**: 1,191
+- **Stars**: 55,506 · **Forks**: 6,352 · **Open issues**: 2,012 · **Contributors**: 1,192
 
 ## Totals (cumulative)
 
-- **Releases**: 47 · **Merged PRs**: 1124 · **Open PRs**: 188 · **Closed issues**: 1832 · **Open issues**: 180 · **Commits**: 5915
+- **Releases**: 47 · **Merged PRs**: 1126 · **Open PRs**: 187 · **Closed issues**: 1833 · **Open issues**: 179 · **Commits**: 5917
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 4 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 15 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 17 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-04 | 26 | 0 | 0 | 0 | 0 | 0 |
-
-## Distribution status
-
-Reported by **76** distros on [repology.org](https://repology.org/project/whisper.cpp). **3** are ✅ on the latest upstream release, **63** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.9.5` | ⚠️ outdated |
-| Debian 14 | `1.9.5` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.8.3` | ⚠️ outdated |
-| Arch | `1.9.5` | ⚠️ outdated |
-| Homebrew | `1.9.6` | ✅ latest |
-| Fedora rawhide | `1.9.3` | ⚠️ outdated |
-| Nix unstable | `1.9.5` | ⚠️ outdated |
-| Alpine edge | `1.9.5` | ⚠️ outdated |
+| 30d | 2026-10-26 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 4 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 15 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 17 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 26 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -87,4 +72,4 @@ Install metadata for whisper.cpp lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:12:08Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:14:07Z._

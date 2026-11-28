@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.9.6"
   latestRelease: "v1.9.6"
   latestPrerelease: "b5907"
-  collectedAt: 2026-11-27T10:01:07Z
+  collectedAt: 2026-11-28T09:12:18Z
 timeline:
   created: 2022-09-25
   lastCommit: 2026-11-26
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-11-23
   lastPrerelease: 2026-11-20
 popularity:
-  star: 55576
-  watcher: 407
-  fork: 6359
+  star: 55593
+  watcher: 406
+  fork: 6364
   release: 47
-  contributor: 1226
-  pullRequest: 1591
+  contributor: 1225
+  pullRequest: 1592
   issue: 2016
 language:
   C++: 14169906
@@ -48,7 +48,7 @@ language:
 totalBytes: 27330060
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 2
     mergedPR: 0
     openPR: 0
@@ -56,7 +56,7 @@ recent:
     openIssue: 0
     commit: 0
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 4
     mergedPR: 0
     openPR: 0
@@ -64,7 +64,7 @@ recent:
     openIssue: 0
     commit: 0
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 7
     mergedPR: 0
     openPR: 0
@@ -72,7 +72,7 @@ recent:
     openIssue: 0
     commit: 0
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 14
     mergedPR: 0
     openPR: 0
@@ -80,7 +80,7 @@ recent:
     openIssue: 0
     commit: 0
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 17
     mergedPR: 0
     openPR: 0
@@ -88,7 +88,7 @@ recent:
     openIssue: 0
     commit: 0
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 26
     mergedPR: 0
     openPR: 0
@@ -98,13 +98,13 @@ recent:
 total:
   release: 47
   mergedPR: 1131
-  openPR: 185
+  openPR: 186
   closedIssue: 1833
   openIssue: 183
   commit: 6089
 ---
 path: /home/runner/.x-repo/github.com/ggerganov/whisper.cpp
-collectedAt: 2026-11-27T10:01:22Z
+collectedAt: 2026-11-28T09:12:31Z
 loc:
   Cpp:
     code: 226515
